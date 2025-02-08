@@ -1711,17 +1711,6 @@ body {
   font-size: 2rem !important;
 }
 
-/* Add floating animation */
-@keyframes float {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
-  100% { transform: translateY(0px); }
-}
-
-.hero-btn {
-  animation: float 4s ease-in-out infinite;
-}
-
 /* Add decorative shapes */
 .decorative-shape {
   position: absolute;

@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import * as tf from '@tensorflow/tfjs';
+
+// Set the backend to WebGL for better performance
+tf.setBackend('webgl');
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
